@@ -5,10 +5,9 @@
 // import MovieHeroes from "./component/MovieHeroes"
 // import Kiosk from "./component/Kiosk"
 
-import Button from "./component/Button";
-import handleClick from "./component/Handle";
-import Toolbar from "./component/ToolBar";
-import ButtonCom from "./component/ButtonCom"
+//import Button from "./component/Button";
+import Toolbar from "./component/ButtonCom/ToolBar.jsx";
+//import ButtonCom from "./component/"
 
 
 // export default function App() {
@@ -26,11 +25,9 @@ import ButtonCom from "./component/ButtonCom"
 
 export default function App() {
     return (
-      <div>
-        <ButtonCom handle={handleClick} message="안녕하세요">
-          버튼 클릭
-        </ButtonCom>
-      </div>
+      <>
+        <Toolbar/>
+      </>
     )
 }
 
