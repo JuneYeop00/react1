@@ -1,6 +1,6 @@
-export default function Button({ handle, message, children }) {
+export default function ButtonCom({ handle, message, children, className }) {
   return (
-    <button onClick={() => handle(message)}>
+    <button className={className} onClick={() => handle({ message })}>
       {children}
     </button>
   );

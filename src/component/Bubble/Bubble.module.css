@@ -1,0 +1,20 @@
+.titlr{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navBar{
+    display: flex;
+    padding: 10%;
+    background-color: #666;
+}
+
+.button {
+    padding: 10ox 20ox;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
