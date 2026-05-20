@@ -1,10 +1,10 @@
-import Bubble from "./component/Bubble/Bubble";
+import Carousel from "./component/Carousel/Carousel";
 
 
 export default function App() {
     return (
       <>
-        <Bubble/>
+        <Carousel/>
       </>
     )
 }

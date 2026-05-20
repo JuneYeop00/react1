@@ -1,5 +1,18 @@
 import style from"./Bubble.module.css";
 
+
+function Button({ onClick, children }) {
+  return (
+    <button className={style.button} onClick={e => {
+      e.stopPropagation();
+      onClick();
+    }}>
+      {children}
+    </button>
+  );
+}
+
+
 export default function Bubble() {
     return(
         <>
